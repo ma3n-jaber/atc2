@@ -1,0 +1,106 @@
+.viewPage {
+    display: flex;
+    gap: 2%;
+    padding: 20px;
+}
+
+.info-box {
+    flex: 2;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.conversation-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.conversation-card h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.conversation-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.conversation-card small {
+    display: block;
+    text-align: right;
+    color: #888;
+    font-size: 12px;
+}
+
+.contact-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-list li:hover {
+    background-color: #e0e0e0;
+}
+
+.message-input-section {
+    margin-top: 20px;
+}
+
+.message-input-section h4 {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4c669f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3a4d7c;
+}

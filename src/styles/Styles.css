@@ -1,0 +1,1285 @@
+.fancyBG {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #1d3bb3, #0a1a4d);
+}
+
+.header-text {
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.contentDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contentDivsignup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: flex-start;
+    padding-bottom: 0;
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+.forgot-password-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.loginInput {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #192f6a;
+    border-radius: 0;
+
+}
+
+.loginInput:focus {
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #0a1a4d;
+
+}
+
+/**/
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    text-decoration: none;
+    color: white;
+    width: auto;
+    margin: 0 10px;
+    height: auto;
+    background-color: #192f6aa4;
+
+}
+
+.btn-primary {
+    background-color: #4c669f;
+}
+
+.btn-primary:hover {
+    background-color: #1a2a6d;
+}
+
+.btn-secondary {
+    background-color: #918484af;
+}
+
+.btn-secondary:hover {
+    background-color: #918484;
+}
+
+/**/
+.loginButton {
+    width: 100%;
+    padding: 12px;
+    color: white;
+    background-color: #4c669f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+
+
+.loginButton:hover {
+    background-color: #1a2a6d;
+}
+
+
+
+.login-container {
+    width: 40%;
+    margin-top: 25%;
+
+    /* padding-inline: 40px;
+    padding-block: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1; */
+}
+
+.signup-container {
+    width: 40%;
+    margin-top: 15%;
+}
+
+
+.loginTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 30px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+} */
+.loginLabel {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.extra-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.forgot-password,
+.sign-up {
+    background-color: transparent;
+    border: none;
+    color: #4c669f;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+}
+
+.forgot-password:hover,
+.sign-up:hover {
+    color: #192f6a;
+}
+
+.header-logo {
+    position: fixed;
+    /* Keep it at the top of the page without affecting layout */
+    top: 0;
+    /* Align top edge with the top of the viewport */
+    left: 0;
+    /* Align left edge with the left side of the viewport */
+    right: 0;
+    /* Align right edge with the right side of the viewport */
+    display: flex;
+    /* Use flexbox for easy alignment */
+    justify-content: center;
+    /* Center horizontally in the flex container */
+    align-items: center;
+    /* Center vertically in the flex container */
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(32, 53, 241);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    /* Ensure it stays above everything else */
+    background-color: #000000;
+    height: 80px;
+    /* Define a specific height for the header */
+    padding: 10px 20px;
+    /* Padding for some breathing room */
+    box-sizing: border-box;
+    /* Include padding in the height calculation */
+}
+
+/* Adding a new class or modifying an existing class for content alignment */
+.logo-text-container {
+    display: flex;
+    align-items: center;
+    /* Center items vertically */
+    justify-content: center;
+    /* Align items to the left */
+    /* Space between logo and text */
+    width: 100%;
+    /* Full width of the header */
+    /* Max width can be adjusted based on design needs */
+    margin: 0 auto;
+    /* Center the container within the header */
+}
+
+
+
+.logo-image {
+    width: 20%;
+    /* Adjust the size as needed */
+    height: 20%px;
+    object-fit: contain;
+    /* Maintain aspect ratio */
+    margin-top: 0px;
+    /* Optional: Fine-tune vertical alignment of the image */
+    padding: 10px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #0a1a4d;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+
+.header button {
+    background-color: white;
+    color: #0a1a4d;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+/* Form Container Styles */
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Verify Button */
+#verify-button {
+    background-color: #0a1a4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Admin Contact Link */
+.admin-contact {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.admin-contact a {
+    color: #0a1a4d;
+    text-decoration: none;
+}
+
+
+
+/*////////////////////////////////////////*/
+
+
+/* Header Section */
+.dashboard-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 81.5%;
+    z-index: 0;
+    background: linear-gradient(to bottom right, #1d3bb3, #918484);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    height: 12%;
+    width: 100%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /*delete if not needed*/
+    margin-left: 10px;
+}
+
+
+.header-buttons {
+    display: flex;
+    justify-content: right;
+    /* Adds space between buttons */
+    align-items: center;
+}
+
+.view-profile-btn {
+    background-color: #192f6aa4;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s;
+    width: auto;
+    /* Ensure it's only as wide as needed */
+    height: auto;
+    /* Ensure it adjusts properly */
+    margin: 0 10px;
+    /* Add space between button and elements */
+}
+
+.view-profile-btn:hover {
+    background-color: #192f6a;
+}
+
+.logout-btn {
+    background-color: #918484af;
+    border: none;
+    padding: 10px;
+    /* Smaller padding */
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: auto;
+    /* Ensure it's only as wide as needed */
+    height: auto;
+    /* Ensure it adjusts properly */
+    transition: background-color 0.3s;
+    margin: 0 10px;
+    position: relative;
+    /* Add space between button and elements */
+}
+
+.logout-btn:hover {
+    background-color: #918484;
+}
+
+.header-btns {
+    align-content: center;
+}
+
+
+/* Welcome Section */
+.welcome-section {
+    margin-top: 50px;
+    margin: 30px;
+    text-align: left;
+    gap: 50px;
+    width: 30%;
+}
+
+.welcome-section h2 {
+    margin-top: 20px;
+    font-size: 28px;
+    color: #333;
+    text-align: left;
+    gap: 50px;
+}
+
+/* Info Section */
+.info-section {
+    position: relative;
+    width: 100%;
+    /*space between divs and cards*/
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info-box {
+    width: 30%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-wrap: break-word;
+    flex: 2;
+    padding: 2rem;
+}
+
+
+/* Dashboard Cards Section */
+.ViewPage {
+    position: absolute;
+    left: 25%;
+    top: 5%;
+}
+
+.dashboard-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10%;
+    gap: 30px;
+    padding: 10px;
+    width: 100%;
+    transition: margin-left 0.3s ease;
+    /* Smooth transition abdalla's */
+    margin-left: 0;
+}
+
+.dashboard-card {
+    width: 22%;
+    min-width: 200px;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-link {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1a2b6dc9;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dashboard-link:hover {
+    background-color: #1a2a6d;
+}
+
+/* Footer Section */
+.dashboard-footer {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(to bottom right, #918484, #1d3bb3);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.dashboard-footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.dashboard-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Drawer Styling */
+
+
+/* Show drawer when active */
+.drawer.open {
+    transform: translateX(0);
+}
+
+
+
+/* Drawer Header (e.g., User Info or Title) */
+.drawer-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #34495e;
+    padding-bottom: 0px;
+    width: 30%;
+}
+
+.drawer-open .dashboard-content {
+    margin-left: 250px;
+    /* Adjust based on the drawer width */
+}
+
+/* Drawer Links */
+.drawer {
+    position: fixed;
+    top: 18.5%;
+    /* Adjust to match the header height */
+    left: 0;
+    width: 20%;
+    /* Use percentage for responsiveness */
+    height: 100%;
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    padding: 10px;
+    z-index: 2;
+}
+
+.drawer.open {
+    transform: translateX(0);
+}
+
+.drawer a {
+    color: white;
+    text-decoration: underline;
+    margin: 15px 0;
+    font-size: 18px;
+
+}
+
+.drawer-toggle-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 0px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s;
+    width: auto;
+    /* Ensure it's only as wide as needed */
+    height: auto;
+    /* Ensure it adjusts properly */
+    margin: 0 0px;
+    /* Add space between button and elements */
+}
+
+
+
+/* Adjust other elements if needed to make space for the drawer */
+.dashboard-container {
+    margin-top: 20px;
+}
+
+/* Hamburger Icon for Toggling Drawer */
+.hamburger {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+    transition: 0.4s;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: rgb(113, 133, 226);
+    border-radius: 2px;
+    transition: 0.4s;
+}
+
+.hamburger::before {
+    transform: translateY(-10px);
+}
+
+.hamburger::after {
+    transform: translateY(10px);
+}
+
+/* Drawer Toggle (Open/Close Animation) */
+.hamburger.open {
+    background-color: transparent;
+}
+
+.hamburger.open::before {
+    transform: rotate(45deg);
+}
+
+.hamburger.open::after {
+    transform: rotate(-45deg);
+}
+
+
+
+/*tell 651 is for viwe profile*/
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.edit-btn {
+    width: 20%;
+    align-items: center;
+    padding: 12px;
+    color: white;
+    background-color: #4c669f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.dashboard-link {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+/*here is a global div for all pages, delete if not useful*/
+.global-div {
+    max-width: 1200px;
+    /* Set a maximum width, adjust as needed */
+    width: 90%;
+    /* Responsive width */
+    margin: 0 auto;
+    /* Center the div */
+    padding: 20px;
+    /* Add some padding inside */
+    background-color: #ffffff;
+    /* Optional background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional shadow for a card effect */
+    border-radius: 8px;
+    /* Optional rounded corners */
+
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/*////////////////////////////////////////////////////*/
+
+.profile-content {
+
+    width: 75%;
+    font-size: 24px;
+}
+
+.userImage {
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.user-info {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 10px;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); */
+    overflow-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.form-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Adjust as needed */
+    width: 100%; /* Ensures the container takes the full width */
+}
+
+.form-field strong {
+    width: 150px; /* Adjust this value to align all labels */
+    margin-right: 10px;
+    text-align: right; /* Aligns the label text to the right */
+}
+
+.profileInput {
+    flex: 1; /* Makes the input take the remaining space */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/*******************************/
+/********************************/
+
+
+
+* {
+    font-size: 20px;
+    cursor: default;
+    box-sizing: border-box;
+}
+
+#invisible {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    /* background-color:rgba(0,0,0,0.2); */
+}
+
+.forLongWords {
+    display: none;
+}
+
+.messageRequest {
+    overflow-wrap: anywhere;
+
+}
+
+#showNavBarBtn {
+    display: none;
+    background-color: inherit;
+    border: inherit solid 0px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#hideNavBarBtn {
+    display: none;
+    background-color: inherit;
+    border: inherit solid 0px;
+    position: absolute;
+    display: flex;
+    color: #c1c2c3;
+    font-size: 15px;
+    top: 20px;
+    left: 86%;
+}
+
+/* **************************** Side navigation bar styles ******************************* */
+.sideNav {
+    display: block;
+    float: left;
+    height: 100%;
+    /* min-width: fit-content; */
+    width: 320px;
+    background: linear-gradient(to bottom right, #1d3bb3, #0a1a4d);
+    padding-top: 40px;
+    color: #c1c2c3;
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    font-size: 1rem;
+}
+
+.txtLogo {
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    border-bottom: #ddd 1px solid;
+}
+
+#logoImg {
+    width: 45px;
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.listOfItems {
+    position: relative;
+    top: 80px;
+}
+
+.navItem li.active {
+    background-color: #ccc;
+}
+
+.navItem {
+    position: relative;
+    margin-top: 5px;
+    height: fit-content;
+    color: #c1c2c3;
+    padding: 4px 5px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+
+}
+
+.navItem a {
+    text-decoration: none;
+    color: #c1c2c3;
+
+
+}
+
+li.navItem {
+    list-style-type: none;
+
+}
+
+.navItem:hover {
+    white-space: nowrap;
+    background-color: #444;
+    cursor: pointer;
+}
+
+.active-link {
+    border-left: #00875a solid 5px !important;
+}
+
+.downArrow {
+    width: 15px;
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.sideNavFooter {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+.mainUnorderdList {
+    padding: 1rem;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+/* ************************************** View page styles **************************************** */
+.banner {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.viewPage {
+    width: 75%;
+    height: auto;
+    min-height: 100%;
+    position: absolute;
+    top: -5%;
+    left: 25%;
+    padding-left: 15%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+}
+
+.textDescription {
+    width: fit-content;
+    height: fit-content;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow-wrap: anywhere;
+}
+
+#basic_integration {
+    width: 85%;
+    margin-left: 7%;
+    box-shadow: 0px 0px 3px #888888;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.github-link {
+    border: #aaa solid 0.5px;
+    border-radius: 5px;
+    padding: 2px;
+    padding-top: 4px;
+    box-shadow: 1px 1px #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    width: 100%;
+    border: 1px solid #dddddd;
+    font-size: 0.9rem;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    position: relative;
+    padding: 8px;
+}
+
+th {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.messageRequest {
+    border: #ddd 1px solid;
+    font-size: 0.9rem;
+    font-family: 'Courier New', Courier, monospace;
+    width: 90%;
+    padding: 5px;
+    margin: 10px;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+.copyBtn {
+    border: white solid 0px;
+    background-color: inherit;
+    color: #212529;
+    position: relative;
+}
+
+.codeContainerHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 20px;
+    background-color: #ddd;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.codeContainer {
+    background-color: #f5f2f0;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 5px;
+
+
+}
+
+.codeLang {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fafafa;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 3px;
+    width: fit-content;
+}
+
+/* ************************************************* Request and Respons Examples ********************************************* */
+.exampleRequestRespons {
+    background-color: #fafafa;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.divTitle {
+    text-align: center;
+}
+
+.tab {
+    overflow: hidden;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.tab button:hover {
+    background-color: #aaa;
+}
+
+.tab button.active {
+    border-bottom: orange 4px solid;
+}
+
+.tabcontent {
+    display: none;
+    padding: 10px;
+    border-top: none;
+}
+
+
+/* ************************************** Notes styles ************************************** */
+.note,
+.errorHandling,
+.warning,
+.information,
+.done {
+    position: relative;
+    width: 95%;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    overflow-wrap: anywhere;
+}
+
+.note {
+    background-color: #ffe4f6;
+    border-left: 4px #cb76af solid;
+}
+
+.errorHandling {
+    background-color: #fdd7d7;
+    border-left: 4px #ff4141 solid;
+}
+
+.warning {
+    background-color: #ffe6b3;
+    border-left: 4px #ffaa00 solid;
+}
+
+.information {
+    background-color: #e3e3f7;
+    border-left: 4px #6161ff solid;
+}
+
+.done {
+    background-color: #d8f7d8;
+    border-left: 4px #5eaf5e solid;
+}
+
+i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* ***************************************** Media Queries********************************************** */
+/* ************************************** for small screens ******************************************** */
+@media screen and (max-width: 376px) {
+    .forLongWords {
+        display: block;
+    }
+
+    #showNavBarBtn {
+        display: block;
+        background-color: white;
+        border: white solid 0px;
+        position: absolute;
+        top: 10px;
+        left: 10px
+    }
+
+    #hideNavBarBtn {
+        display: none;
+        background-color: #212529;
+        border: #212529 solid 0px;
+        position: relative;
+        display: flex;
+        font-size: 15px;
+        top: -20px;
+
+    }
+
+    .sideNav {
+        /* display: none; */
+        left: -500px;
+        transition: 300ms;
+
+    }
+
+    .viewPage {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        padding-bottom: 20px;
+        overflow: unset;
+    }
+
+    .banner {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
+/* ************************************** for medium screens ******************************************** */
+@media screen and (min-width: 376px) and (max-width : 800px) {
+    .forLongWords {
+        display: block;
+    }
+
+    #showNavBarBtn {
+        display: block;
+        background-color: white;
+        border: white solid 0px;
+        position: absolute;
+        top: 10px;
+        left: 10px
+    }
+
+    #hideNavBarBtn {
+        display: none;
+        background-color: #212529;
+        border: #212529 solid 0px;
+        position: absolute;
+        display: flex;
+        height: 20px;
+    }
+
+    .sideNav {
+        /* display: none; */
+        left: -500px;
+        transition: 300ms;
+    }
+
+    .viewPage {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        padding-bottom: 20px;
+
+    }
+
+    .banner {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
+
+/* ************************************** for large screens ******************************************** */
+@media screen and (min-width: 801px) {
+
+    /* p {
+    background-color: red;
+} */
+    .forLongWords {
+        display: none;
+    }
+
+    #showNavBarBtn {
+        display: none;
+        background-color: white;
+        border: white solid 0px;
+        position: absolute;
+        top: 10px;
+        left: 10px
+    }
+
+    #hideNavBarBtn {
+        display: none;
+        background-color: #212529;
+        border: #212529 solid 0px;
+        position: absolute;
+        display: flex;
+        height: 20px;
+    }
+
+    .sideNav {
+        display: block;
+        float: left;
+        height: 100%;
+        width: 320px;
+        padding-top: 40px;
+        position: fixed;
+        z-index: 3;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    #invisible {
+        display: none;
+    }
+}
